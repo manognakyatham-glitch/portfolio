@@ -6,17 +6,12 @@ import Projects from "./pages/Projects";
 
 function App() {
   return (
-    <HashRouter>
-      <nav>
-        <NavLink to="/">Home</NavLink>
-        <NavLink to="/projects">Projects</NavLink>
-      </nav>
-
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/projects" element={<Projects />} />
-      </Routes>
-    </HashRouter>
+    <div style={{ textAlign: "center", marginTop: "50px" }}>
+      <h1>Manogna Kyatham</h1>
+      <h2>Welcome to My Portfolio 🚀</h2>
+      <p>I am a Computer Science student.</p>
+      <p>This is my deployed website using GitHub Pages.</p>
+    </div>
   );
 }
 
