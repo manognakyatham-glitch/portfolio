@@ -20,9 +20,9 @@ function Projects() {
         <p>
           Developed a Java Swing application to manage utility bills with features like add, delete, search, and filter.
         </p>
-        <a href="/" onClick={(e) => e.preventDefault()}>
-          View Project
-        </a>
+        <a href="https://github.com/manognakyatham-glitch/portfolio" target="_blank">
+  View Project
+</a>
       </div>
     </div>
   );
