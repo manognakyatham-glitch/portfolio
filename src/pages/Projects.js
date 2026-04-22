@@ -3,26 +3,50 @@ import React from "react";
 function Projects() {
   return (
     <div className="container">
-      <h1>My Projects</h1>
+      <h1 className="title">My Projects</h1>
 
-      <div className="card">
+      {/* Project 1 */}
+      <div className="card project-card">
         <h3>Fake News Detection using NLP</h3>
         <p>
-          Built an NLP-based model to classify news articles as Fake or Real using machine learning and Streamlit.
+          Built an NLP-based model to classify news as Fake or Real using machine learning.
         </p>
-        <a href="/" onClick={(e) => e.preventDefault()}>
-          View Project
+
+        <div className="tags">
+          <span>Python</span>
+          <span>NLP</span>
+          <span>Machine Learning</span>
+        </div>
+
+        <a
+          href="https://github.com/manognakyatham-glitch/portfolio"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button className="btn">View on GitHub</button>
         </a>
       </div>
 
-      <div className="card">
+      {/* Project 2 */}
+      <div className="card project-card">
         <h3>Utility Bill Management System</h3>
         <p>
-          Developed a Java Swing application to manage utility bills with features like add, delete, search, and filter.
+          Java-based application to manage bills with add, delete, and search features.
         </p>
-        <a href="https://github.com/manognakyatham-glitch/portfolio" target="_blank">
-  View Project
-</a>
+
+        <div className="tags">
+          <span>Java</span>
+          <span>Swing</span>
+          <span>OOP</span>
+        </div>
+
+        <a
+          href="https://github.com/manognakyatham-glitch/portfolio"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button className="btn">View on GitHub</button>
+        </a>
       </div>
     </div>
   );

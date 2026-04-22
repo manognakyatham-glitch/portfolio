@@ -1,14 +1,16 @@
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
   background: linear-gradient(to right, #e0ecf8, #f8fafc);
 }
-/* Navbar */
- nav {
+
+nav {
   background-color: #1e293b;
   padding: 15px;
   text-align: center;
 }
+
 nav a {
   color: white;
   margin: 0 20px;
@@ -21,72 +23,78 @@ nav a:hover {
   color: #38bdf8;
 }
 
-/* Main container */
 .container {
   padding: 30px;
   text-align: center;
 }
 
-/* Headings */
-h1 {
-  color: #1e293b;
-}
-
-h2 {
-  color: #141c28;
-}
 .title {
-  text-align: center;
   margin-top: 30px;
   font-size: 36px;
   color: #1e293b;
 }
-/* Cards */
+
 .card {
   background-color: white;
-  padding: 20px;
+  padding: 25px;
   margin: 20px auto;
   width: 50%;
   border-radius: 15px;
   box-shadow: 0 8px 20px rgba(0,0,0,0.1);
 }
+
 .profile {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  display: block;
-  margin: 20px auto;
-  object-fit: cover;
-}
-.profile {
-  width: 120px;
-  height: 120px;
+  width: 130px;
+  height: 130px;
   border-radius: 50%;
   object-fit: cover;
   display: block;
-  margin: 40px auto 20px;
-}
-/* Links */
-a {
-  color: #2563eb;
-  font-weight: bold;
+  margin: 30px auto;
 }
 
-a:hover {
-  text-decoration: underline;
+.tags {
+  margin: 12px 0;
 }
+
+.tags span {
+  display: inline-block;
+  background: #e0e7ff;
+  color: #1e3a8a;
+  padding: 6px 12px;
+  border-radius: 20px;
+  margin: 5px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.btn {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.btn:hover {
+  background: #1d4ed8;
+}
+
+.personal .row {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.personal .row span:first-child {
+  font-weight: bold;
+  color: #1e293b;
+}
+
 ul {
   list-style-type: none;
   padding: 0;
-}
-a {
-  color: white;
-  background-color: #2563eb;
-  padding: 8px 15px;
-  border-radius: 8px;
-  text-decoration: none;
-}
-
-a:hover {
-  background-color: #1d4ed8;
 }
