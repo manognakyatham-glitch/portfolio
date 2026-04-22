@@ -19,12 +19,13 @@ function Projects() {
         </div>
 
         <a
-         href="https://github.com/manognakyatham-glitch/Fake-news-Detection"
-          target="_blank"
+  
+           href="https://github.com/manognakyatham-glitch/Fake-news-Detection" 
+           target="_blank" 
           rel="noopener noreferrer"
-        >
-          <button className="btn">View on GitHub</button>
-        </a>
+            >
+      <button className="btn">View on GitHub</button>
+      </a>
       </div>
 
       {/* Project 2 */}
@@ -39,14 +40,13 @@ function Projects() {
           <span>Swing</span>
           <span>OOP</span>
         </div>
-
-        <a
-         href="https://github.com/manognakyatham-glitch/utility-bill-system"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <button className="btn">View on GitHub</button>
-        </a>
+        <a 
+        href="https://github.com/manognakyatham-glitch/utility-bill-system" 
+        target="_blank" 
+         rel="noopener noreferrer"
+          >
+      <button className="btn">View on GitHub</button>
+     </a>
       </div>
     </div>
   );
