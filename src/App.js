@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import { HashRouter, Routes, Route, NavLink } from "react-router-dom";
+
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 
