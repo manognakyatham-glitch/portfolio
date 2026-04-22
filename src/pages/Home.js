@@ -1,10 +1,14 @@
 import React from "react";
+import profile from "./profile.jpg";  // image in same folder
 
 function Home() {
   return (
     <div className="container">
-      <h1>Manogna Kyatham</h1>
-      <img src="/profile.jpg" alt="Profile" className="profile" />
+
+      <h1 className="title">Manogna Kyatham</h1>
+
+      {/* PROFILE IMAGE */}
+      <img src={profile} alt="Profile" className="profile" />
 
       <div className="card">
         <h2>About Me</h2>
@@ -27,6 +31,7 @@ function Home() {
           <li>Skills: HTML, CSS, JavaScript, React, Node.js, Python</li>
         </ul>
       </div>
+
     </div>
   );
 }

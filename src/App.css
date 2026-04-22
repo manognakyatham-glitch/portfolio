@@ -50,9 +50,13 @@ h2 {
   border-radius: 15px;
   box-shadow: 0 8px 20px rgba(0,0,0,0.1);
 }
-.card:hover {
-  transform: scale(1.02);
-  transition: 0.3s;
+.profile {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: 20px auto;
+  object-fit: cover;
 }
 .profile {
   width: 120px;
