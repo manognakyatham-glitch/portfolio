@@ -19,7 +19,7 @@ function Projects() {
         </div>
 
         <a
-          href="https://github.com/manognakyatham-glitch/portfolio"
+         href="https://github.com/manognakyatham-glitch/Fake-news-Detection"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -41,7 +41,7 @@ function Projects() {
         </div>
 
         <a
-          href="https://github.com/manognakyatham-glitch/portfolio"
+         href="https://github.com/manognakyatham-glitch/utility-bill-system"
           target="_blank"
           rel="noopener noreferrer"
         >
