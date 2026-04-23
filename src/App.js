@@ -9,9 +9,9 @@ function App() {
   return (
     <HashRouter>
       <nav>
-        <NavLink to="/">Home</NavLink>
-        <NavLink to="/projects">Projects</NavLink>
-      </nav>
+  <NavLink to="/">Home</NavLink>
+  <NavLink to="/projects">Projects</NavLink>
+  </nav>
 
       <Routes>
         <Route path="/" element={<Home />} />
