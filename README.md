@@ -18,4 +18,4 @@ A personal portfolio website built using React to showcase my skills and project
 
 Links:
 GitHub: https://github.com/manognakyatham-glitch/portfolio
-LiveDemo:
+LiveDemo:https://manognakyatham-glitch.github.io/portfolio/
