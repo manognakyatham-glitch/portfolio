@@ -1,18 +1,38 @@
-
 body {
+  background: #dbe5ec;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.card {
+  background: rgb(42, 101, 185);
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+  text-align: center;
+}
+body {
+}
   margin: 0;
   font-family: Arial, sans-serif;
   background: linear-gradient(to right, #e0ecf8, #f8fafc);
-}
 
 nav {
-  background-color: #1e293b;
+  background-color: #567fc1;
   padding: 15px;
   text-align: center;
 }
 
 nav a {
-  color: white;
+  color: rgb(74, 81, 129);
   margin: 0 20px;
   text-decoration: none;
   font-weight: bold;
@@ -21,8 +41,9 @@ nav a {
 
 nav a:hover {
   color: #38bdf8;
-}
 
+  color: #38bdf8;
+}
 .container {
   padding: 30px;
   text-align: center;
@@ -35,7 +56,7 @@ nav a:hover {
 }
 
 .card {
-  background-color: white;
+  background-color: rgb(242, 242, 247);
   padding: 25px;
   margin: 20px auto;
   width: 50%;
@@ -58,7 +79,7 @@ nav a:hover {
 
 .tags span {
   display: inline-block;
-  background: #e0e7ff;
+  background: #9fa4b5;
   color: #1e3a8a;
   padding: 6px 12px;
   border-radius: 20px;
@@ -68,8 +89,8 @@ nav a:hover {
 }
 
 .btn {
-  background: #2563eb;
-  color: white;
+  background: #9ea0a4;
+  color: rgb(30, 11, 175);
   border: none;
   padding: 10px 18px;
   border-radius: 10px;
